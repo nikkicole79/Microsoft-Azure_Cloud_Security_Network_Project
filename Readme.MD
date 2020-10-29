@@ -6,30 +6,30 @@ organization's needs.
 The files in this repository were used to configure the network depicted below.
 
 This document contains the following details:
-- Setup a Virtual Private Cloud Network
-  - Staying Organized: Resource Group 
-  - Adding a Virtual Network
-- Protect the Cloud Network with a Firewall
-  - Network Security Group (NSG)
-    - Inbound Security rule to SSH from Jump Box to the Network
-- Deploy a Virtual Computer to the Cloud Network
-  - Setting up the Jump Box Provisioner (VM)
-    - Test SSH into the Jump Box Provisioner
-  - Create Web VM's Web 1 and Web 2
-- Docker: Configure Jump Box to run Docker Containers and install a container
-  - Docker and Ansible
-  - Test SSH into the Web VM's
-  - Test Ansible to verify installed and running
-- Configuration files to let Ansible Make Connections
-  - Nano ansible.cfg file
-  - Nano hosts file
-  - Pinging the Webservers
-- Creating the Load Balancer
-  - Firewall Configuration
-  - DVWA 
+   - Setup a Virtual Private Cloud Network
+     - Staying Organized: Resource Group 
+     - Adding a Virtual Network
+   - Protect the Cloud Network with a Firewall
+     - Network Security Group (NSG)
+     - Inbound Security rule to SSH from Jump Box to the Network
+   - Deploy a Virtual Computer to the Cloud Network
+     - Setting up the Jump Box Provisioner (VM)
+      - Test SSH into the Jump Box Provisioner
+   - Create Web VM's Web 1 and Web 2
+   - Docker: Configure Jump Box to run Docker Containers and install a container
+     - Docker and Ansible
+     - Test SSH into the Web VM's
+     - Test Ansible to verify installed and running
+   - Configuration files to let Ansible Make Connections
+     - Nano ansible.cfg file
+     - Nano hosts file
+     - Pinging the Webservers
+   - Creating the Load Balancer
+     - Firewall Configuration
+     - DVWA 
   
-- References:
-    - Public Key Setup  
+   - References:
+      - Public Key Setup  
       - Public Key for the Jump-Box-Provisioner
       - Public Key for the Web VM's  
 
